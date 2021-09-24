@@ -1,0 +1,69 @@
+
+.wrapper{
+    position: relative;
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.altos_logo{
+    position: absolute;
+    top: 0;
+	left: 30%;
+	z-index: 1000;
+    width: 100%;
+	height: 100px;
+    max-width: 194px;
+    max-height: 96px;
+}
+
+.container{
+    margin: 20px 20px 30px 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 560px;  
+}
+
+.container_inner{
+    width: 100%;
+    max-width: 560px;
+    margin-top: 20px;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+.container_text{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+p:first-child{
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+p:nth-child(3){
+    margin-bottom: 0px;
+}
+
+.icons{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.icons img{
+    margin-left: 5px;
+ }
+
+ a{
+     color: #29C4F0;
+ }
+
